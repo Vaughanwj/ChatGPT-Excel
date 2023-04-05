@@ -12,6 +12,12 @@ Instructions:
 To call the function in Excel, its simply =askGPT(A1)  
 Where A1 is the cell containing the prompt.
 
+For more advanced work, say checking a table for example, you could use:
+
+=askgpt("Does this table add up: "&TEXTJOIN(",",FALSE,C29:F33))
+
+..Where C29:F33 is the table. TEXTJOIN turns a table into a CSV string. It works. You might want to play with the output though to make it prettier.
+
 Here's a video of it working: https://github.com/Vaughanwj/ChatGPT-Excel/commit/0022d124cdde75b48b08ff61a1e6dce822a57e62
 
 Expect there to be a delay in copy and pasting the function. 
