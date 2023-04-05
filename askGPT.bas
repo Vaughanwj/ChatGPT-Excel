@@ -27,11 +27,10 @@ Function askGPT(prompt_text As String) As String
     prompt_text = Replace(prompt_text, Chr(34), "")
     
     endPoint = "https://api.openai.com/v1/chat/completions"
-    'endpoint = "https://api.openai.com/v1/engines/gpt-4/completions"
     Model = "gpt-4-0314"
     maxTokens = 1024
     
-    API_KEY = "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"
+    API_KEY = "YOUR API KEY HERE"
     
     Set request = CreateObject("MSXML2.XMLHTTP")
     request.Open "POST", endPoint, False
