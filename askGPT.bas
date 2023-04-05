@@ -54,7 +54,7 @@ Function askGPT(prompt_text As String) As String
     response = request.responseText
     Dim answer As String
     answer = Mid(response, InStr(response, "content"":""") + Len("content"":"""), InStr(InStr(response, "content"":""") + Len("content"":"""), response, """") - InStr(response, "content"":""") - Len("content"":"""))
-    askGPT = answer
+    askGPT = Replace(answer, "\n", vbCrLf)
     
     
 End Function
