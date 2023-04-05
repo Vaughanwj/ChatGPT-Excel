@@ -6,7 +6,8 @@ Instructions:
 1) Obtain an API Key from Openai.com
 2) Start Excel, then open the Visual Basic Editor (alt-F11)
 3) Import the Module askGPT.bas
-4) Save the spreadsheet as a macro-enabled Excel workbook. Or you can unhide Personal and put it in there and save that as Macro Enabled.
+4) Enter your API Key in the API_KEY variable.
+5) Save the spreadsheet as a macro-enabled Excel workbook. Or you can unhide Personal and put it in there and save that as Macro Enabled.
 
 To call the function in Excel, its simply =askGPT(A1)  
 Where A1 is the cell containing the prompt.
