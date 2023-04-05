@@ -11,6 +11,8 @@ Instructions:
 To call the function in Excel, its simply =askGPT(A1)  
 Where A1 is the cell containing the prompt.
 
+Here's a video of it working: https://github.com/Vaughanwj/ChatGPT-Excel/commit/0022d124cdde75b48b08ff61a1e6dce822a57e62
+
 Expect there to be a delay in copy and pasting the function. 
 
 any questions, vaughanwj@futurewatch.ai
