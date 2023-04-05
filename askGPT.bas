@@ -30,8 +30,6 @@ Function askGPT(prompt_text As String) As String
     Model = "gpt-4-0314"
     maxTokens = 1024
     
-    API_KEY = "YOUR API KEY HERE"
-    
     Set request = CreateObject("MSXML2.XMLHTTP")
     request.Open "POST", endPoint, False
     request.setRequestHeader "Content-Type", "application/json"
